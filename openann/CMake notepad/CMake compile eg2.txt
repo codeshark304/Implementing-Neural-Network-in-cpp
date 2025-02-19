@@ -1,0 +1,14 @@
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>cmake --build .
+MSBuild version 17.13.9+e0f243f1e for .NET Framework
+
+cl : command line  warning D9002: ignoring unknown option '-std=c++14' [C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann
+\openann.vcxproj]
+  main.cpp
+  openann.vcxproj -> C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\Debug\openann.exe
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>Debug\openann.exe
+Val:1.5
+Activated Val:0.6
+Derived Val:0.24
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>

@@ -1,0 +1,92 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Monish Kiran>C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++
+'C:\Users\Monish' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran>cd C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++>cmake .
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "."
+
+
+CMake Error: The source directory "C:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++>cd C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>code main.cpp
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>cmake .
+-- Building for: Visual Studio 17 2022
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+-- The C compiler identification is MSVC 19.43.34808.0
+-- The CXX compiler identification is MSVC 19.43.34808.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++/sample
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>make
+'make' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>cmake --build .
+MSBuild version 17.13.9+e0f243f1e for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++/sample/CMakeLists.tx
+  t
+cl : command line  warning D9002: ignoring unknown option '-std=c++14' [C:\Users\Monish Kiran\Desktop\Monish Kiran\VS C
+ode\Neural Network using C++\sample\sample.vcxproj]
+  main.cpp
+  sample.vcxproj -> C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample\Debug\sample.exe
+  Building Custom Rule C:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++/sample/CMakeLists.tx
+  t
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>sample.exe
+'sample.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>make
+'make' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>sample.exe
+'sample.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>g++ -o sample main.cpp
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>sample.exe
+MY name is MK
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>cmake --build .
+MSBuild version 17.13.9+e0f243f1e for .NET Framework
+
+  sample.vcxproj -> C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample\Debug\sample.exe
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>.\sample.exe
+MY name is MK
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\sample>

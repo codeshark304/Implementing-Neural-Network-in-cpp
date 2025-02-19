@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\CMakeFiles\1b15f7cde678c42dfbf524d86bc02476\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C16B89D6-01E4-3D2D-B919-8C249E823F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

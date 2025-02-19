@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\src\Neuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\src\Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\src\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\src\NeuralNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{297EBFA3-D519-3677-9246-0A9F99A8FDC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\MONISH KIRAN\DESKTOP\MONISH KIRAN\VS CODE\NEURAL NETWORK USING C++\OPENANN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++/openann" "-BC:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++/openann" --check-stamp-file "C:/Users/Monish Kiran/Desktop/Monish Kiran/VS Code/Neural Network using C++/openann/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

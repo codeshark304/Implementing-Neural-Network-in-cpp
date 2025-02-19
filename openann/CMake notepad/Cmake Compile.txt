@@ -1,0 +1,36 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Monish Kiran>cd C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>make
+'make' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>nmake
+'nmake' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>mingw32-make
+mingw32-make: *** No targets specified and no makefile found.  Stop.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>cmake --build .
+MSBuild version 17.13.9+e0f243f1e for .NET Framework
+
+  openann.vcxproj -> C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann\Debug\openann.
+  exe
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>./openann
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>openann.exe
+'openann.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>Debug\openann.exe
+Val:0.9
+Activated Val:0.473684
+Derived Val:0.249307
+
+C:\Users\Monish Kiran\Desktop\Monish Kiran\VS Code\Neural Network using C++\openann>C
