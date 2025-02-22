@@ -33,10 +33,10 @@ int main(int argc, char **argv){
     input.push_back(0.0);
     input.push_back(1.0);
 
-    NeuralNetwork *nn = new NeuralNetwork(topology);
-    nn->setCurrentInput(input);
+    //NeuralNetwork *nn = new NeuralNetwork(topology);
+    //nn->setCurrentInput(input);
 
-    nn->printToConsole();
+    //nn->printToConsole();
     
     return 0;
 }

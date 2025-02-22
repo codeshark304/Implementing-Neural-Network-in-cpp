@@ -1,34 +1,40 @@
 #ifndef _NEURON_HPP_
 #define _NEURON_HPP_
 
-#include<iostream>
-#include<math.h>
+#define TANH 1
+#define RELU 2
+#define SIGM 3
+
+#include <iostream>
+#include <math.h>
 using namespace std;
 
-class Neuron{
+class Neuron
+{
 public:
-    Neuron(double val);
+  Neuron(double val);
+  Neuron(double val, int activationType);
 
-    void setVal(double v);
+  void setVal(double v);
 
-    //Fast sigmoid act fn
-    void activate();
+  //Fast sigmoid act fn
+  void activate();
 
-    //derivative for fast sigmoid fn
-    void derive();
+  //derivative for fast sigmoid fn
+  void derive();
 
-    //Getter
-    double getVal(){return this->val;}
-    double getActivatedVal(){return this->activatedVal;}
-    double getDerivedVal(){return this->derivedVal;}
-
+  // Getter
+  double getVal() { return this->val; }
+  double getActivatedVal() { return this->activatedVal; }
+  double getDerivedVal() { return this->derivedVal; }
 
 private:
-    double val;
-    double activatedVal;
-    double derivedVal;
+  double val;
 
+  double activatedVal;
+  double derivedVal;
 
+  int activationType = 3;
 };
 
 #endif

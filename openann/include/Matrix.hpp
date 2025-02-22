@@ -22,6 +22,8 @@ public:
     int getNumrows() { return this->numRows;}
     int getNumCols() { return this->numCols;}
 private:
+    double generateRandomNumber();
+
     int numRows;
     int numCols;
 

@@ -1,5 +1,5 @@
 #include "../include/NeuralNetwork.hpp"
-
+/*
 void NeuralNetwork::printToConsole(){
     for(int i =0; i< this->layers.size();i++){
         cout<<"LAYER " << i << endl;
@@ -36,3 +36,4 @@ NeuralNetwork::NeuralNetwork(vector<int> topology){
         this->weightMatrices.push_back(m);
     }
 }
+    */
